@@ -1,0 +1,3 @@
+Esta es una web de aprendizaje sobre HTML, CSS  Y JavaScript.
+
+El sitio simula una página promocional de vinos inspirada en la estética de una marca ficticia llamada Asia Wines. Las imágenes fueron realizadas con Inteligencia Artificial. El objetivo principal es practicar el diseño visual con HTML y CSS, el uso de imágenes de fondo, posicionamiento de elementos, integración de video, y la organización de una estructura web básica.

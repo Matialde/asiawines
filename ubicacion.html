@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Asia Wines</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="Logo de Asia Wines"/>
+            </a>            
+        </div>  
+        <nav class="nav">
+            <ul class="nav-centro">   
+                <li><a href="./vinos.html">Vinos</a></li>
+                <li><a href="./espumantes.html">Espumantes</a></li>
+                <li><a href=ubicacion.html>Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="nav-derecha">
+            <i class="fa fa-search" aria-hidden="true" style="color:white"></i>
+            <i class="fa-solid fa-user" style="color:white"></i>
+            <i class="fa-solid fa-bag-shopping" style="color:white"></i>
+        </div>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <p>Si tienes alguna consulta, no dudes en contactarnos. Te responderemos a la brevedad.</p>
+        <form action="https://formspree.io/f/xgvkwbvj" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="Nombre" id="name" placeholder="Ingrese su nombre"><br>
+            <label for="nombre">Correo electrónico:</label><br>
+            <input type="email" name="Email" id="email" placeholder="Ingrese su mail"><br>
+            <label for="nombre">Mensaje:</label><br>
+            <textarea name="Consulta" rows="5" cols="30" placeholder="Ingrese su mensaje"></textarea><br>
+            <input type="submit" name="Submit" id="submit" placeholder="Enviar"><br>
+            <input type="reset" name="reset" id="reset" placeholder="Reestablecer"><br>
+        </form>
+        <h1>Ubicación</h1>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10460.404016035978!2d-58.409505508070225!3d-34.585431888276574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1745269199483!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <a href="./index.html">Volver a la página principal</a>
+    <footer>
+        <hr>
+        <p>Desarrollador: Matías Aldegani - 2025 |
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <a href="mailto:aldegani-mf@hotmail.com"> Email: aldegani-mf@hotmail.com</a>
+        </p>
+        <hr>
+    </footer>
+    
+</body>
+</html>

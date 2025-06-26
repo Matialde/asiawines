@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Asia Wines</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="Logo de Asia Wines"/>
+            </a>            
+        </div>  
+        <nav class="nav">
+            <ul class="nav-centro">   
+                <li><a href="./vinos.html">Vinos</a></li>
+                <li><a href="./espumantes.html">Espumantes</a></li>
+                <li><a href=ubicacion.html>Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="nav-derecha">
+            <i class="fa fa-search" aria-hidden="true" style="color:white"></i>
+            <i class="fa-solid fa-user" style="color:white"></i>
+            <i class="fa-solid fa-bag-shopping" style="color:white"></i>
+        </div>
+    </header>
+
+    <main>
+        <div class="grilla">
+            <div class="item">
+                <p>Malbec</p>
+                <img src="./img/Malbec.png" width="80%" alt="Botella vino Malbec">
+                <button>Comprar</button>
+            </div>
+            <div class="item">
+                <p>Chardonnay</p>
+                <img src="./img/blanco.png" width="80%" alt="Botella vino Blanco">
+                <button>Comprar</button>
+            </div>
+            <div class="item">
+                <p>Rosé</p>
+                <img src="./img/rosado.png" width="80%" alt="Botella vino Rosado">
+                <button>Comprar</button>
+            </div>
+            <div class="item">
+                <p>Cabernet</p>
+                <img src="./img/cabernet.png" width="80%" alt="Botella vino Cabernet">
+                <button>Comprar</button>
+            </div>
+            <div class="item-video">
+                <section class="video-vino">
+                    <video controls autoplay muted width="560" height="315">
+                        <source src="./video/video.mp4" type="video/mp4">
+                        <track src="./video/subtitulo.vtt" kind="subtitles" srclang="es" label="Español">
+                    </video>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Desarrollador: Matías Aldegani - 2025 |
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <a href="mailto:aldegani-mf@hotmail.com"> Email: aldegani-mf@hotmail.com</a>
+        </p>
+        <hr>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> <!-- Haciendo esto habilitamos el Bootstrap-->
+</body>
+</html>
